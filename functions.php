@@ -13,9 +13,11 @@
         // je file gulo wordpress chene na sugulo k age register korte hobe erpor enqueue kore use korte hobe 
         // register 
         wp_register_style( 'bootstrap', get_template_directory_uri(  ).'/css/bootstrap.css', array(), '5.0.2', 'all' );
+        wp_register_style( 'custom', get_template_directory_uri(  ).'/css/custom.css', array(), '1.0.0', 'all' );
 
         // enqueue 
         wp_enqueue_style( 'bootstrap');
+        wp_enqueue_style( 'custom');
 
     }
     add_action( 'wp_enqueue_scripts','masud_css_js_file_calling' );  //first working purpose and 2nd function name
