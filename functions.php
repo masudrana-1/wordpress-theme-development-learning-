@@ -8,6 +8,8 @@
 
     // Theme CSS and jQuery File calling 
     function masud_css_js_file_calling(){
+
+        // css calling 
         wp_enqueue_style( 'masud-style', get_stylesheet_uri(  ) ); //unique style name , style uri
 
         // je file gulo wordpress chene na sugulo k age register korte hobe erpor enqueue kore use korte hobe 
@@ -18,6 +20,13 @@
         // enqueue 
         wp_enqueue_style( 'bootstrap');
         wp_enqueue_style( 'custom');
+
+
+        // jQuery calling 
+        // just enqueue korle wordpress default vabe jquery load korbe 
+        wp_enqueue_script( 'jquery' );
+        wp_enqueue_script( 'bootstrap', get_template_directory_uri(  ).'js/bootstrap.js', array(), '5.0.2', true );
+        
 
     }
     add_action( 'wp_enqueue_scripts','masud_css_js_file_calling' );  //first working purpose and 2nd function name
