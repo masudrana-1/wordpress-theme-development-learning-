@@ -25,7 +25,10 @@
         // jQuery calling 
         // just enqueue korle wordpress default vabe jquery load korbe 
         wp_enqueue_script( 'jquery' );
+
+        // js file er jonno register dorkar hoy na. ekhane js file gulo k footer a niye asar jonno true
         wp_enqueue_script( 'bootstrap', get_template_directory_uri(  ).'js/bootstrap.js', array(), '5.0.2', true );
+        wp_enqueue_script( 'main', get_template_directory_uri(  ).'js/main.js', array(), '1.0.0', true );
         
 
     }
