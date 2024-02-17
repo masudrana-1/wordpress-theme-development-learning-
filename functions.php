@@ -32,6 +32,6 @@
         
 
     }
-    add_action( 'wp_enqueue_scripts','masud_css_js_file_calling' );  //first working purpose and 2nd function name
-
+    //first working purpose and 2nd function name
+    add_action( 'wp_enqueue_scripts','masud_css_js_file_calling' );
 
