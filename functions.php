@@ -39,8 +39,12 @@
 
     // Theme function 
     // logo k wordpress teke control korar jonno 
+    // -> ata k object operator bole
+    // => ata k dubble arrow operator
     function masud_customizar_register($wp_customize){
         $wp_customize->add_section('masud_header_area', array(
-            
-        ));         // -> ata k object operator bole 
+            'title' =>__('Header Area', 'masudRana'),
+        ));         
     }
+
+    add_action( 'customize_register', 'masud_customizar_register' );
