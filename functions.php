@@ -45,7 +45,11 @@
         $wp_customize->add_section('masud_header_area', array(
             'title' =>__('Header Area', 'masudRana'), // 1st section name, text domain
             'description' => 'If you interested to update header area, you can do it here.'
-        ));         
+        ));
+        // setting add 
+        $wp_customize->add_setting('masud_logo', array(
+            'default' => get_bloginfo( 'template_directory' ). '/img/logo.png', 
+        ));
     }
 
     add_action( 'customize_register', 'masud_customizar_register' );
