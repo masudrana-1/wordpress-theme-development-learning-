@@ -43,7 +43,8 @@
     // => ata k dubble arrow operator
     function masud_customizar_register($wp_customize){
         $wp_customize->add_section('masud_header_area', array(
-            'title' =>__('Header Area', 'masudRana'),
+            'title' =>__('Header Area', 'masudRana'), // 1st section name, text domain
+            'description' => 'If you interested to update header area, you can do it here.'
         ));         
     }
 
