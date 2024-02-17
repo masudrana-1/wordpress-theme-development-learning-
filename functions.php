@@ -35,3 +35,12 @@
     //first working purpose and 2nd function name
     add_action( 'wp_enqueue_scripts','masud_css_js_file_calling' );
 
+
+
+    // Theme function 
+    // logo k wordpress teke control korar jonno 
+    function masud_customizar_register($wp_customize){
+        $wp_customize->add_section('masud_header_area', array(
+            
+        ));         // -> ata k object operator bole 
+    }
