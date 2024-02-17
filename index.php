@@ -26,7 +26,9 @@
                 <div class="col-md-3">
                     <a href="">
                         <!-- add logo  -->
-                        <img src="<?php echo get_template_directory_uri(  ); ?>/img/logo.png" alt="">
+                        <!-- ekhane get_theme_mod er moddhe setting diye dite hobe -->
+                        <!-- dynamic change logo  -->
+                        <img src="<?php echo get_theme_mod( 'masud_logo' ) ?>" alt="">
                     </a>
                 </div>
                 <div class="col-md-3">
