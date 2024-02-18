@@ -32,7 +32,7 @@
                     </a>
                 </div>
                 <div class="col-md-9">
-                    <ul id="nav">
+                    <!-- <ul id="nav">
                         <li><a href="">Home</a></li>
                         <li><a href="">About us</a></li>
                         <li><a href="">Media</a></li>
@@ -55,7 +55,11 @@
                         <li><a href="">Download</a></li>
                         <li><a href="">Project</a></li>
                         <li><a href="">Contact us</a></li>
-                    </ul>
+                    </ul> -->
+
+                    <!-- dynamic menu  -->
+                    <!-- ekhane main_menu holo register name and menu id  -->
+                    <?php wp_nav_menu( array('theme_location' => 'main_menu', 'menu_id'=> 'nav') ); ?>
                 </div>
             </div>
         </div>
