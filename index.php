@@ -35,6 +35,7 @@
                     <ul id="nav">
                         <li><a href="">Home</a></li>
                         <li><a href="">About us</a></li>
+                        <li><a href="">Media</a></li>
                         <li><a href="">Service</a>
                             <ul>
                                 <li><a href="">DropDown</a>
@@ -51,7 +52,6 @@
                                 <li><a href="">DropDown Menu</a></li>
                             </ul>
                         </li>
-                        <li><a href="">Media</a></li>
                         <li><a href="">Download</a></li>
                         <li><a href="">Project</a></li>
                         <li><a href="">Contact us</a></li>

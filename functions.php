@@ -22,7 +22,7 @@
         wp_enqueue_style( 'custom');
 
 
-        // jQuery calling 
+        //! jQuery calling 
         // just enqueue korle wordpress default vabe jquery load korbe 
         wp_enqueue_script( 'jquery' );
 
@@ -36,8 +36,18 @@
     add_action( 'wp_enqueue_scripts','masud_css_js_file_calling' );
 
 
+    //! Google Fonts
+    // ekhane google font link
+    function masud_add_google_fonts(){
+        wp_enqueue_style( 'masud_google_font', 'https://fonts.googleapis.com/css2?family=Kaisei+Decol&family=Oswald:wght@200..700&display=swap', $var=false );
+    }
 
-    // Theme function 
+    
+
+
+
+
+    //! Theme function 
     // logo k wordpress teke control korar jonno 
     // -> ata k object operator bole
     // => ata k dubble arrow operator
