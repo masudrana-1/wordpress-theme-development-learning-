@@ -72,3 +72,7 @@
     }
 
     add_action( 'customize_register', 'masud_customizar_register' );
+
+    //! Menu register
+    // jekono ekta name and text domain
+    register_nav_menu( 'main_menu', __('Main_menu', 'masudRana') );
