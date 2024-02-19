@@ -93,7 +93,7 @@
                 'left_menu' => 'Left Menu',
                 'right_menu' => 'Right Menu',
                 'center_menu' => 'Center Menu',
-            )
+            ),
         ));
 
 

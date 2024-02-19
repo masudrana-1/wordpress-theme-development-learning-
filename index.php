@@ -20,7 +20,9 @@
 
 <!-- added body class for wordpress class  -->
 <body <?php body_class(  ); ?>>
-    <div id="header_area">
+
+    <!-- add dynamic menu position  -->
+    <div id="header_area" class="<?php echo get_theme_mod( 'masud_menu_position' ) ?>">
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
