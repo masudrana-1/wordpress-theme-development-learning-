@@ -83,6 +83,13 @@
             'default' => 'right_menu', 
         ));
 
+        $wp_customize->add_control( 'masud_menu_position', array(
+            'label' => 'Menu Position Option',
+            'description' => 'If you interested to change Menu position, you can do it here.',
+            'setting' => 'masud_menu_position',
+            'section' => 'masud_menu_option',
+        ));
+
 
     }
 
