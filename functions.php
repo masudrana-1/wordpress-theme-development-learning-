@@ -52,6 +52,8 @@
     // -> ata k object operator bole
     // => ata k dubble arrow operator
     function masud_customizar_register($wp_customize){
+
+        //! Header Area Function 
         $wp_customize->add_section('masud_header_area', array(
             'title' =>__('Header Area', 'masudRana'), // 1st section name, text domain
             'description' => 'If you interested to update header area, you can do it here.'
@@ -69,6 +71,13 @@
             'setting' => 'masud_logo',
             'section' => 'masud_header_area',
         )));
+
+
+        //! Menu Position Function 
+        $wp_customize->add_section('masud_menu_option', array(
+            'title' =>__('Menu Position Option', 'masudRana'), // 1st section name, text domain
+            'description' => 'If you interested to update menu position, you can do it here.'
+        ));
     }
 
     add_action( 'customize_register', 'masud_customizar_register' );
