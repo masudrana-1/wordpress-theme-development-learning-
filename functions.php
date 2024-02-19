@@ -78,6 +78,12 @@
             'title' =>__('Menu Position Option', 'masudRana'), // 1st section name, text domain
             'description' => 'If you interested to update menu position, you can do it here.'
         ));
+
+        $wp_customize->add_setting('masud_menu_position', array(
+            'default' => 'right_menu', 
+        ));
+
+
     }
 
     add_action( 'customize_register', 'masud_customizar_register' );
