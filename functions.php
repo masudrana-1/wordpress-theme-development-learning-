@@ -88,6 +88,12 @@
             'description' => 'If you interested to change Menu position, you can do it here.',
             'setting' => 'masud_menu_position',
             'section' => 'masud_menu_option',
+            'type' => 'radio',
+            'choices' => array(
+                'left_menu' => 'Left Menu',
+                'right_menu' => 'Right Menu',
+                'center_menu' => 'Center Menu',
+            )
         ));
 
 
