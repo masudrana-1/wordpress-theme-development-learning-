@@ -26,7 +26,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
-                    <a href="">
+                    <a href="<?php echo home_url( ); ?>">
                         <!-- add logo  -->
                         <!-- ekhane get_theme_mod er moddhe setting diye dite hobe -->
                         <!-- dynamic change logo  -->
@@ -71,7 +71,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    
+                    <?php the_content(  ); ?>
                 </div>
             </div>
         </div>
