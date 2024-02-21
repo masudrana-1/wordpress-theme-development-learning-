@@ -22,7 +22,7 @@
 <body <?php body_class(  ); ?>>
 
     <!-- add dynamic menu position  -->
-    <div id="header_area" class="<?php echo get_theme_mod( 'masud_menu_position' ) ?>">
+    <header id="header_area" class="<?php echo get_theme_mod( 'masud_menu_position' ) ?>">
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
@@ -65,7 +65,17 @@
                 </div>
             </div>
         </div>
-    </div>
+    </header>
+
+    <section id="body_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
     
     <?php wp_footer(  ); ?>
 </body>
