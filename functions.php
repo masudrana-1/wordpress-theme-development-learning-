@@ -97,6 +97,22 @@
         ));
 
 
+         //! Footer Position Function 
+        $wp_customize->add_section('masud_footer_option', array(
+            'title' =>__('Footer Option', 'masudRana'), // 1st section name, text domain
+            'description' => 'If you interested to update footer setting, you can do it here.'
+        ));
+
+        $wp_customize->add_setting('masud_copyright_section', array(
+            'default' => '&copy; Copyright 2024 | Masud Rana', 
+        ));
+
+        $wp_customize->add_control( 'masud_copyright_section', array(
+            'label' => 'Copyright Text',
+            'description' => 'If you interested, you can update copyright text.',
+            'setting' => 'masud_copyright_section',
+            'section' => 'masud_footer_option',
+        ));
     }
 
     add_action( 'customize_register', 'masud_customizar_register' );
@@ -115,3 +131,4 @@
     // }
 
     // add_filter('nav_menu_item', 'masud_nav_description', 10, 3);
+

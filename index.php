@@ -80,13 +80,15 @@
 
 
     <footer id="footer-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <p></p>
+        <section id="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p></p>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
     </footer>
     
     <?php wp_footer(  ); ?>
