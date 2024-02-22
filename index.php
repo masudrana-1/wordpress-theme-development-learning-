@@ -80,7 +80,7 @@
 
 
     <footer id="footer-area">
-        <section id="copyright-area">
+        <section id="copyright_area">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
