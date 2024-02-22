@@ -33,6 +33,9 @@ h6 {
     position: relative;
 }
 
+/* #header_area .col-md-9 ul li a span {
+    display: block;
+} */
 #header_area .col-md-9 ul li a {
     color: #262626;
     padding: 20px 10px;
@@ -143,4 +146,7 @@ h6 {
 
 #header_area.center_menu .col-md-9 ul {
     text-align: center;
+}
+#header_area.center_menu .col-md-9 ul ul {
+    text-align: left;
 }
