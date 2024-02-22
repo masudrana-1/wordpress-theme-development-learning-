@@ -84,7 +84,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <p></p>
+                        <!-- show dynamic footer  -->
+                        <p><?php echo get_theme_mod( 'masud_copyright_section' ); ?></p>
                     </div>
                 </div>
             </div>
