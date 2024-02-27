@@ -4,7 +4,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <!-- show dynamic footer  -->
-                        <h5><?php echo get_theme_mod( 'masud_copyright_section' ); ?></h5>
+                        <p><?php echo get_theme_mod( 'masud_copyright_section' ); ?></p>
                     </div>
                 </div>
             </div>
