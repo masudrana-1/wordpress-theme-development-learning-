@@ -30,6 +30,11 @@
 
                 <!-- blog section  -->
                 <div class="blog_area">
+
+                        <div class="post_thumb">
+                            <a href="<?php the_permalink(); ?>"><?php echo the_post_thumbnail('post-thumbnails'); ?></a>
+                        </div>
+
                         <?php the_content(  ); ?>
                 </div>
 
