@@ -31,6 +31,8 @@
                 <!-- blog section  -->
                 <div class="blog_area">
 
+                <!-- the_permalink() dile link clickable hoy  -->
+
                         <div class="post_thumb">
                             <a href="<?php the_permalink(); ?>"><?php echo the_post_thumbnail('post-thumbnails'); ?></a>
                         </div>

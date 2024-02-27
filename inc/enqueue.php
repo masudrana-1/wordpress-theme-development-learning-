@@ -32,7 +32,7 @@
     //! Google Fonts
     // ekhane google font link
     function masud_add_google_fonts(){
-        wp_enqueue_style( 'masud_google_font', 'https://fonts.googleapis.com/css2?family=Kaisei+Decol&family=Oswald:wght@200..700&display=swap', $var=false );
+        wp_enqueue_style( 'masud_google_font', 'https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@400;700&display=swap', $var=false );
     }
 
     add_action( 'wp_enqueue_scripts','masud_add_google_fonts' );
