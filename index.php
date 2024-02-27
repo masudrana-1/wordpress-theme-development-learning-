@@ -18,7 +18,35 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-9">
-                    <?php the_content(  ); ?>
+
+                <!-- blog section  -->
+                <!-- if have any post  then show post  -->
+
+                    <?php
+
+                        if(have_posts(  )) : 
+                            while (have_posts(  )) : the_post(  );
+                    ?>
+
+                <!-- blog section  -->
+                <div class="blog_area">
+                        <?php the_content(  ); ?>
+                </div>
+
+                <!-- if have not any post  then show   -->
+                    <?php
+                        endwhile;
+
+                        else : 
+                            _e( 'No post found' );
+
+                        endif;
+                    ?>
+
+                
+
+
+                    
                 </div>
                 <div class="col-md-3">
                     <p>sidebar</p>
