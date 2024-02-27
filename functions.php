@@ -21,8 +21,7 @@
 
 
     //! Menu register
-    // jekono ekta name and text domain
-    register_nav_menu( 'main_menu', __('Main_menu', 'masudRana') );
+    include_once('inc/theme_function.php');
 
 
     //! Walker menu properties
