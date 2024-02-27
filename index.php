@@ -28,7 +28,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <p>Some Notification</p>
+                        <h2>Some Notification</h2>
                     </div>
                 </div>
             </div>
