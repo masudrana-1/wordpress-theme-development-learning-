@@ -23,6 +23,17 @@
 
     <!-- add dynamic menu position  -->
     <header id="header_area" class="<?php echo get_theme_mod( 'masud_menu_position' ) ?>">
+
+        <div id="notice">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>Some Notification</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
