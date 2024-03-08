@@ -68,9 +68,9 @@
 
                     
                 </div>
-                <div class="col-md-3">
-                    <p>sidebar</p>
-                </div>
+                    <div class="col-md-3">
+                        <p>sidebar</p>
+                    </div>
             </div>
         </div>
     </section>

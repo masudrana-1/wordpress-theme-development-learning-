@@ -34,3 +34,6 @@
 
     // add_filter('nav_menu_item', 'masud_nav_description', 10, 3);
 
+
+    //! Widgets Register
+    include_once('inc/widgets_register.php');
