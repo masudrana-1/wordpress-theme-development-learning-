@@ -69,7 +69,9 @@
                     
                 </div>
                     <div class="col-md-3">
-                        <p>sidebar</p>
+                        <?php
+                            get_sidebar(  );
+                        ?>
                     </div>
             </div>
         </div>
