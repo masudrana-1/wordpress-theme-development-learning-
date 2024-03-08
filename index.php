@@ -56,7 +56,14 @@
                         endif;
                     ?>
 
-                
+                <!-- pagination  -->
+
+                <div id="page_nav">
+                    <?php if ('masud_pagenav') {masud_pagenav(); } else{ ?>
+                        <?php next_posts_link(); ?>
+                        <?php previous_posts_link(); ?>
+                    <?php } ?>
+                </div>
 
 
                     
