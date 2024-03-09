@@ -1,6 +1,9 @@
+/*=======================================
+ Common CSS
+========================================*/
 body {
     font-family: "Roboto", sans-serif;
-        font-size: 15px;
+    font-size: 15px;
         line-height: 1.5em;
     }
     
@@ -19,41 +22,30 @@ h6 {
     font-family: "Oswald", sans-serif;
     line-height: 1.5em;
 }
-.col-md-3>a>img {
+img {
     max-width: 100%;
-    max-height: 65px;
 }
 
-a.readmore {
+a.redmore {
     background: #ea1a70;
     color: #fff;
     font-size: 15px;
     text-decoration: none;
     display: inline-block;
     padding: 10px 25px;
-    border-radius: 10px;
     transition: 0.5s;
 }
 
-a.readmore:hover {
+a.redmore:hover {
     background: #262626;
 }
-/******************************************* header  *******************************/
-/* #notice {
-    background: #ff6b6b;
-    padding: 10px 0;
-    color: #fff;
-    text-align: center;
-    margin-bottom: 10px;
-}
 
-#notice h2 {
-    margin: 0;
-}
-
-*/
+/*=======================================
+ Header Area Style
+========================================*/
 #header_area {
-    padding: 15px 0;
+    padding: 15px 0 20px;
+        box-shadow: 0 3px 10px #ddd;
 }
 
 #header_area .col-md-9 ul {
@@ -69,12 +61,15 @@ a.readmore:hover {
     position: relative;
 }
 
-/* #header_area .col-md-9 ul li a span {
+#header_area .col-md-9 ul li a span {
+    font-family: "Kaisei Decol", serif;
     display: block;
-} */
+    font-size: 13px;
+    }
 #header_area .col-md-9 ul li a {
     color: #262626;
     padding: 20px 10px;
+    font-size: 16px;
     display: block;
     text-transform: uppercase;
     text-decoration: none;
@@ -94,7 +89,7 @@ a.readmore:hover {
     text-align: left;
     top: 62px;
     width: 200px;
-    z-index: 9999999;
+    z-index: 99999;
 }
 
 #header_area .col-md-9 ul li:hover ul {
@@ -154,10 +149,10 @@ a.readmore:hover {
     background: #ea1a70;
     color: #fff;
 }
-/*===========================================
-    Menu Position
-===========================================*/
 
+/*===========================================
+  Menu Position
+===========================================*/
 #header_area.left_menu .col-md-3 {
     order: 2;
 }
@@ -173,7 +168,7 @@ a.readmore:hover {
 #header_area.center_menu .col-md-3 {
     width: 100%;
     text-align: center;
-    /* margin-bottom: 10px; */
+    margin-bottom: 10px;
 }
 
 #header_area.center_menu .col-md-9 {
@@ -183,11 +178,13 @@ a.readmore:hover {
 #header_area.center_menu .col-md-9 ul {
     text-align: center;
 }
+
 #header_area.center_menu .col-md-9 ul ul {
     text-align: left;
 }
+
 /*=======================================
-    Index Page Style
+ Index Page Style
 ========================================*/
 #body_area {
     padding: 45px 0;
@@ -195,7 +192,10 @@ a.readmore:hover {
 
 #body_area .blog_area {
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+        background: #fff;
+        padding: 15px;
+        box-shadow: 0px 0px 10px #ddd;
 }
 
 #body_area .post_thumb {
@@ -234,6 +234,81 @@ a.readmore:hover {
     color: #ea1a70;
 }
 /*===========================================
+  Sibebar Area Styling===========================================*/ .child_sidebar {
+      margin-bottom: 20px;
+  }
+
+  .child_sidebar h2 {
+      font-family: "Roboto", sans-serif;
+      font-weight: 700;
+      font-size: 30px;
+      margin-bottom: 0;
+      line-height: 1em;
+      border-left: 5px solid #ea1a70;
+      padding-left: 10px;
+  }
+
+  .child_sidebar input[type="search"] {
+      background: #fff;
+      border: 1px solid #ddd;
+      padding: 10px;
+  }
+
+  .child_sidebar button[type="submit"] {
+      background: #ea1a70;
+      border: 1px solid #ea1a70;
+      padding: 10px;
+      margin: 0;
+      color: #fff;
+      transition: 0.5s;
+  }
+
+  .child_sidebar button[type="submit"]:hover {
+      background: #262626;
+      border: 1px solid #262626;
+  }
+
+  .child_sidebar ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      text-align: left;
+  }
+
+  .child_sidebar ul li {
+      display: block;
+      margin-bottom: 5px;
+  }
+
+  .child_sidebar ul ul {
+      display: none;
+  }
+
+  .child_sidebar ul li a {
+      display: inline-block;
+      color: #262626;
+      text-decoration: none;
+  }
+
+  .child_sidebar ul li a:hover {
+      color: #ea1a70;
+  }
+
+  .child_sidebar a.tag-cloud-link {
+      color: #fff;
+      background: #262626;
+      display: inline-block;
+      font-size: 12px !important;
+      text-decoration: none;
+      padding: 5px;
+      margin-bottom: 5px;
+  }
+
+  .child_sidebar a.tag-cloud-link:hover {
+      background: #ea1a70;
+  }
+
+  /*===========================================
   Pagenav Area Styling
 ===========================================*/
 #page_nav {}
@@ -264,7 +339,19 @@ a.readmore:hover {
     background: #262626;
 }
 /*===========================================
-    Copyright Area Styling
+  Footer Area Styling===========================================*/ #footer {
+      background: #292929;
+      padding: 40px 0 20px;
+      color: #fff;
+      border-bottom: 1px solid #ddd;
+  }
+
+  #footer .child_sidebar ul li a {
+      color: #fff;
+  }
+
+  /*===========================================
+  Copyright Area Styling
 ===========================================*/
 #copyright_area {
     background: #292929;
