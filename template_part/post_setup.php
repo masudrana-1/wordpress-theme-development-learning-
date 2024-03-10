@@ -20,8 +20,11 @@
                         <!-- for perfect blog page  -->
                         <div class="post_details">
                             <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-                            <?php the_excerpt(); ?>
+                            <?php the_content(  ); ?>
                         </div>
+
+
+                        <!-- ekhane content use korar mane holo full content show korbe  -->
 
                         <?php the_content(  ); ?>
                     </div>
@@ -35,12 +38,3 @@
 
                         endif;
                     ?>
-
-                    <!-- pagination  -->
-
-                    <div id="page_nav">
-                        <?php if ('masud_pagenav') {masud_pagenav(); } else{ ?>
-                            <?php next_posts_link(); ?>
-                            <?php previous_posts_link(); ?>
-                        <?php } ?>
-                    </div>

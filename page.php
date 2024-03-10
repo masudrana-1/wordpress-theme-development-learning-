@@ -20,7 +20,7 @@
 
                     <!-- this area for template  part -->
 
-                    <?php get_template_part( 'template_part/blog_setup' )  ?>
+                    <?php get_template_part( 'template_part/post_setup' )  ?>
 
                     
                 </div>
