@@ -20,7 +20,13 @@
 
                     <!-- this area for template  part -->
 
-                    <?php get_template_part( 'template_part/post_setup' )  ?>
+                    <?php get_template_part( 'template_part/post_setup' );  ?>
+
+                    <!-- for comments  -->
+
+                    <div id="comments_area">
+                        <?php comments_template(  ); ?>
+                    </div>
 
                     
                 </div>
