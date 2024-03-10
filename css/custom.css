@@ -26,7 +26,7 @@ img {
     max-width: 100%;
 }
 
-a.redmore {
+a.readmore {
     background: #ea1a70;
     color: #fff;
     font-size: 15px;
@@ -36,7 +36,7 @@ a.redmore {
     transition: 0.5s;
 }
 
-a.redmore:hover {
+a.readmore:hover {
     background: #262626;
 }
 
