@@ -339,19 +339,19 @@ a.readmore:hover {
     background: #262626;
 }
 /*===========================================
-  Footer Area Styling===========================================*/ #footer {
-      background: #292929;
-      padding: 40px 0 20px;
-      color: #fff;
-      border-bottom: 1px solid #ddd;
-  }
+        Footer Area Styling===========================================*/ #footer {
+            background: #292929;
+            padding: 40px 0 20px;
+            color: #fff;
+            border-bottom: 1px solid #ddd;
+        }
 
-  #footer .child_sidebar ul li a {
-      color: #fff;
-  }
+#footer .child_sidebar ul li a {
+    color: #fff;
+}
 
-  /*===========================================
-  Copyright Area Styling
+/*===========================================
+    Copyright Area Styling
 ===========================================*/
 #copyright_area {
     background: #292929;
