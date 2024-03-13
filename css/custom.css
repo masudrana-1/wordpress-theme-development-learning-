@@ -275,38 +275,38 @@ a.readmore:hover {
     text-align: left;
 }
 
-  .child_sidebar ul li {
-      display: block;
-      margin-bottom: 5px;
-  }
+.child_sidebar ul li {
+    display: block;
+    margin-bottom: 5px;
+}
 
-  .child_sidebar ul ul {
-      display: none;
-  }
+.child_sidebar ul ul {
+    display: none;
+}
 
-  .child_sidebar ul li a {
-      display: inline-block;
-      color: #262626;
-      text-decoration: none;
-  }
+.child_sidebar ul li a {
+    display: inline-block;
+    color: #262626;
+    text-decoration: none;
+}
 
-  .child_sidebar ul li a:hover {
-      color: #ea1a70;
-  }
+.child_sidebar ul li a:hover {
+    color: #ea1a70;
+}
 
-  .child_sidebar a.tag-cloud-link {
-      color: #fff;
-      background: #262626;
-      display: inline-block;
-      font-size: 12px !important;
-      text-decoration: none;
-      padding: 5px;
-      margin-bottom: 5px;
-  }
+.child_sidebar a.tag-cloud-link {
+    color: #fff;
+    background: #262626;
+    display: inline-block;
+    font-size: 12px !important;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 5px;
+}
 
-  .child_sidebar a.tag-cloud-link:hover {
-      background: #ea1a70;
-  }
+.child_sidebar a.tag-cloud-link:hover {
+    background: #ea1a70;
+}
 
 /*===========================================
 Archive Styling
