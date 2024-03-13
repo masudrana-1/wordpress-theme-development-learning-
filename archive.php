@@ -1,6 +1,6 @@
 <?php
 /*
-* The main template file
+* The template for displaying Archive Pages
 */ 
 get_header(); ?>
 
@@ -8,6 +8,15 @@ get_header(); ?>
         <div class="container">
             <div class="row">
                 <div class="col-md-9">
+
+                <!-- archive title  -->
+                    <div id="archive_title">
+                        <?php
+                            the_archive_title('<h1 class="title">','</h1>');
+                            the_author_description('<div class="description">', '</div>');
+                        ?>
+                    </div>
+
                     <?php get_template_part('template_part/blog_setup'); ?>
                 </div>
                 <div class="col-md-3">
@@ -17,4 +26,4 @@ get_header(); ?>
         </div>
     </section>
 
-  <?php get_footer(); ?>
+<?php get_footer(); ?>
