@@ -80,6 +80,14 @@
             'section' => 'masud_colors',
             'settings' => 'masud_bg_color',
         )));
+        $wp_customize ->add_setting('masud_primary_color', array(
+            'default' => '#ea1a70',
+        ));
+        $wp_customize->add_control( new WP_Customize_color_control($wp_customize, 'masud_primary_color', array(
+            'label' => 'Primary Color',
+            'section' => 'masud_colors',
+            'settings' => 'masud_primary_color',
+        )));
     }
 
     add_action( 'customize_register', 'masud_customizar_register' );
