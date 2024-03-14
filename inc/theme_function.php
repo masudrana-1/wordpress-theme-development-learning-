@@ -72,6 +72,9 @@
             'title' => __('Theme Color', 'MasudRana'),
             'description' => 'If need you can change your theme color.',
         ));
+        $wp_customize ->add_setting('masud_bg_color', array(
+            'default' => '#ffffff',
+        ));
     }
 
     add_action( 'customize_register', 'masud_customizar_register' );
