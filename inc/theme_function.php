@@ -75,6 +75,11 @@
         $wp_customize ->add_setting('masud_bg_color', array(
             'default' => '#ffffff',
         ));
+        $wp_customize->add_control( new WP_Customize_color_control($wp_customize, 'masud_bg_color', array(
+            'label' => 'Background Color',
+            'section' => 'masud_colors',
+            'settings' => 'masud_bg_color',
+        )));
     }
 
     add_action( 'customize_register', 'masud_customizar_register' );
