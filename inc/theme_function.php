@@ -67,7 +67,7 @@
         ));
 
 
-        // Theme Color
+        //! Theme Color
         $wp_customize-> add_section('masud_colors', array(
             'title' => __('Theme Color', 'MasudRana'),
             'description' => 'If need you can change your theme color.',
@@ -92,4 +92,14 @@
 
     add_action( 'customize_register', 'masud_customizar_register' );
 
-    
+
+    //! theme color function
+    function masud_theme_color_cus(){
+        ?>
+            <style>
+                body{background: <?php echo get_theme_mod('masud_bg_color'); ?>}
+                :root{ --pink:<?php echo get_theme_mod('masud_primary_color'); ?>}
+            </style>
+        <?php 
+    }
+    add_action('wp_head', 'masud_theme_color_cus');
