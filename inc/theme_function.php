@@ -65,6 +65,13 @@
             'setting' => 'masud_copyright_section',
             'section' => 'masud_footer_option',
         ));
+
+
+        // Theme Color
+        $wp_customize-> add_section('masud_colors', array(
+            'title' => __('Theme Color', 'MasudRana'),
+            'description' => 'If need you can change your theme color.',
+        ));
     }
 
     add_action( 'customize_register', 'masud_customizar_register' );

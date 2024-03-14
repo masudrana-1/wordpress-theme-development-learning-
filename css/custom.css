@@ -2,7 +2,7 @@
                 Common CSS
 ========================================*/
 :root {
-    --pink: var(--pink);
+    --pink: #ea1a70;
 }
 body {
     font-family: "Roboto", sans-serif;
