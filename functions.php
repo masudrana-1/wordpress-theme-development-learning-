@@ -13,7 +13,8 @@
     include_once('inc/enqueue.php');
 
 
-
+    // Adding Custom post
+    include_once('inc/custom_post.php');
 
 
     //! Theme function 
