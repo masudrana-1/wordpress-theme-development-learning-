@@ -1,5 +1,14 @@
 <?php
 
+
+    //******
+    //public => means sob jayga theke paowa jabe ai post/page
+    //publicly_queryable => means sob jayga theke query kore paowa jabe
+    //exclude_from_search => means sob jayga theke search kore paowa jabe
+    //rewrite => api url a ki show korbe seta 
+    /*****/
+
+
 function custom_service(){
     register_post_type( 'service', 
         array(
@@ -13,7 +22,17 @@ function custom_service(){
                 'view_item' => ('View Service'),
                 'not_found' => ('Sorry, we could\'n find the service you are looking for.'),
             ),
-            
+            'menu_icon' => 'dashicons-networking',
+            'public' => true,
+            'publicly_queryable' => true,
+            'exclude_from_search' => true,
+            'menu_position' => 5, 
+            'has_archive' => true,
+            'hierarchial' => true,
+            'show_ui' => true,
+            'capability_type' => 'post',
+            'rewrite' => array('slag' => 'service'),
+            'supports' => array('title', 'thumbnail', 'editor', 'excerpt'),
         )
-    )
+    );
 }
