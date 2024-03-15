@@ -36,3 +36,5 @@ function custom_service(){
         )
     );
 }
+
+add_action('init', 'custom_service');
